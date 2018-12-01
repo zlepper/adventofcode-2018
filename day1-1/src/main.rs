@@ -22,6 +22,8 @@ fn main() {
     }).collect::<Vec<i32>>();
 
     println!("Result: {}", calculate_frequency(numbers));
+
+
 }
 
 #[cfg(test)]
